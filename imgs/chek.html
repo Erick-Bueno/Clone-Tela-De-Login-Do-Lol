@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .checkboxx input{
+            display: none;
+        }
+        .checkboxx input + label:before{
+            content: "";
+            width: 18px;
+            height: 18px;
+            border-radius: 4px;
+            background-color: red;
+            display: inline-block;
+        }
+        .checkboxx input:checked + label:before{
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="checkboxx">
+        <input type="checkbox" name="" id="check">
+        <label for="check">chek1</label>
+    </div>
+</body>
+</html>

@@ -1,0 +1,181 @@
+*{
+    padding: 0px;
+    margin:0px;
+
+}
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+main{
+    background-color: white;
+    width: 420px;
+    height: 950px;
+}
+.fundo{
+    background-image: url(./imgs/lux-annie-ekko-kayn-lucian-lol-uhdpaper.com-8K-115.jpg);
+    background-size: 1940px;
+    background-position-x: 150px;
+}
+.logo{
+    max-width: 30%;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+header{
+    text-align: center;
+}
+.login{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+#nome{
+    margin-bottom: 10px;
+    width: 300px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    font-size: 13px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(227, 224, 224);
+
+    
+}
+.nomee{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.senha{
+    text-align: center;
+}
+#senha{
+    width: 300px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:10px;
+    font-size: 13px ;
+    border-radius: 5px;
+    background-color: rgb(227, 224, 224);
+    border: none;
+    margin-bottom: 30px;
+}
+.botoes{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.face{
+    background-color: rgb(15, 105, 241);
+    border: none;
+    width: 90px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 3px;
+    line-height: 2px;
+    cursor: pointer;
+    transition: 1s;
+}
+.face:hover{
+    background-color:rgb(11, 80, 184) ;
+    
+}
+.google{
+    background-color: white;
+    border: none;
+    width: 90px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 1s;
+}
+.google:hover{
+    background-color: rgb(177, 166, 166);
+}
+.app{
+    background-color: gray;
+    border:none;
+    width: 90px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 3px;
+    height: 30px;
+    cursor: pointer;
+    transition: 1s;
+}
+.app:hover{
+    background-color: rgb(5, 4, 4);
+    ;
+}
+.checkboxx input{
+    display: none;
+}
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.checkboxx input + label:before{
+    content: "";
+    width: 18px;
+    height: 18px;
+    border-radius: 4px;
+    background-color:  rgb(126, 117, 117);
+    display: inline-block;
+    margin-left: 60px;
+    margin-right: 5px;
+    cursor: pointer;
+    
+}
+.checkboxx input:checked + label:before{
+    background-color: black;
+}
+.paragrafos{
+    padding-top: 200px;
+}
+.p1{
+    text-align: center;
+    color:rgb(126, 117, 117);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.p2{
+    text-align: center;
+    color:rgb(126, 117, 117) ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: -15px;
+}
+.p3{
+    color:rgb(126, 117, 117) ;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 40px;
+}
+.botao2{
+    margin-top: 70px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 20px;
+    border: solid 1px gray;
+    transition: 1s;
+    cursor: pointer;
+}
+.butao2{
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+.img3{
+    filter: opacity(25%);
+    border-color: rgba(128, 128, 128, 0);
+}
+.botao2:hover{
+    background-color:rgb(117, 114, 114);
+}
+
